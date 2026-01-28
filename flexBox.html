@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlexBox Card Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: auto;
+    } 
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      color: #333;
+      text-align: center;
+    }
+
+    .card-content p {
+      margin: 0;
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #ffffff;
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>FlexBox Card Layout</h1>
+  <div class="container">
+    <div class="card">
+      <img src="ph.JPG" alt="Card Image 1">
+      <div class="card-content">
+        <h3>Card Title 1</h3>
+        <p>Short description for card 1.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="ph.JPG" alt="Card Image 2">
+      <div class="card-content">
+        <h3>Card Title 2</h3>
+        <p>Short description for card 2.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="ph.JPG" alt="Card Image 3">
+      <div class="card-content">
+        <h3>Card Title 3</h3>
+        <p>Short description for card 3.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="ph.JPG" alt="Card Image 4">
+      <div class="card-content">
+        <h3>Card Title 4</h3>
+        <p>Short description for card 4.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
